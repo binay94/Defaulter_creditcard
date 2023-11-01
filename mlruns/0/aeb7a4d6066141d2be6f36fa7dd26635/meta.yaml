@@ -1,0 +1,15 @@
+artifact_uri: file:///A:/FSDS_Project/Creditcard_defaulter/mlruns/0/aeb7a4d6066141d2be6f36fa7dd26635/artifacts
+end_time: 1698846434298
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aeb7a4d6066141d2be6f36fa7dd26635
+run_name: peaceful-squid-99
+run_uuid: aeb7a4d6066141d2be6f36fa7dd26635
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698846434213
+status: 3
+tags: []
+user_id: binay
