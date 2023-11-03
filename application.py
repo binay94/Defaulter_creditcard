@@ -4,7 +4,8 @@ from src.exception import CustomException
 from src.logger import logging
 import mlflow
 
-app = Flask(__name__)
+application = Flask(__name__)
+app=application
 
 @app.route('/')
 def home_page():
