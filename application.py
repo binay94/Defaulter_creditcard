@@ -10,9 +10,9 @@ app=application
 @app.route('/')
 def home_page():
     try:
-        return render_template('index.html')
+        return render_template('form.html')
     except Exception as e:
-        error_message = f'Error rendering index.html: {str(e)}'
+        error_message = f'Error rendering form.html: {str(e)}'
         logging.error(error_message)
         raise CustomException(error_message)
 
@@ -20,7 +20,7 @@ def home_page():
 def predict_datapoint():
     try:
         if request.method == 'GET':
-            return render_template('test.html')
+            return render_template('form.html')
         else:
             form_data = request.form
             data = CustomData(**form_data.to_dict())
@@ -35,7 +35,7 @@ def predict_datapoint():
             #     mlflow.log_params(form_data.to_dict())
             #     mlflow.log_params({'results': str(results)})
 
-            return render_template('test.html', final_result=results)
+            return render_template('form.html', final_result=results)
     except Exception as e:
         error_message = f'Exception occurred while running Flask API: {str(e)}'
         logging.error(error_message)
