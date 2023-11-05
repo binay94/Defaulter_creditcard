@@ -132,3 +132,15 @@ project_root/
 
 
 ## Output is as shown below:
+### Deployed in AWS Beanstalk:
+![Screenshot 2023-11-03 123425](https://github.com/binay94/Defaulter_creditcard/assets/116953493/1266caef-d2fa-43a9-a055-3e6d4d53a80a)
+
+### Homepage:
+![Screenshot 2023-11-03 130131](https://github.com/binay94/Defaulter_creditcard/assets/116953493/b03f8300-e24c-47db-94eb-4f3a110329ac)
+
+### User Inputing:
+![Screenshot 2023-11-03 130635](https://github.com/binay94/Defaulter_creditcard/assets/116953493/3eee39a8-1781-4d23-8b13-1165bb106e14)
+
+### Results:
+![Screenshot 2023-11-03 130657](https://github.com/binay94/Defaulter_creditcard/assets/116953493/1fdcca19-77c1-4a5e-80b7-dc45c34fe758)
+
