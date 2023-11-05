@@ -18,8 +18,8 @@ def get_requirements(file_path:str)->List[str]:
 setup(
     name='Defaulter Prediction Project',
     version='0.0.1',
-    author='mkgourab',
-    author_email='gourabmahapatra29@gmail.com',
+    author='BKPradhan',
+    author_email='binaya.vicky@gmail.com',
     install_requires=get_requirements('requirements.txt'),
     packages=find_packages()
 )
