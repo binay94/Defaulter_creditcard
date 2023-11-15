@@ -41,7 +41,7 @@ Before you begin, make sure you have the following requirements:
 
 ## Setup and Usage
 
-    1. **Clone the repository**:
+    1. **Clone the repository** :
 
         git clone <https://github.com/binay94/Defaulter_creditcard>
 
